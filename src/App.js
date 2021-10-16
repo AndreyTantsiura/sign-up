@@ -1,9 +1,11 @@
 import "./App.css";
+import React from "react";
+import FormRegComp from "./components/FormRegComp";
 
 function App() {
   return (
     <div className="App">
-      <h1>React. SignUp Page</h1>
+      <FormRegComp />
     </div>
   );
 }
