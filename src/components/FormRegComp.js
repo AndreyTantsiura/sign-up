@@ -72,15 +72,19 @@ export default function FormRegComp() {
 
   const rememberDataUser = (e) => {
     e.target.style.backgroundColor = "#318636";
-    alert(
-      "gender:" +
-        gender +
-        "; " +
-        "email: " +
-        email +
-        "; " +
-        "password: " +
-        confirmPassword
+    setTimeout(
+      () =>
+        alert(
+          "gender:" +
+            gender +
+            "; " +
+            "email: " +
+            email +
+            "; " +
+            "password: " +
+            confirmPassword
+        ),
+      0
     );
   };
 
